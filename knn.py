@@ -31,8 +31,13 @@ def getElements(elemn) :
 
  teste.append(aux2)
 
-arq = open(sys.argv[1],'r')
-arq2 = open(sys.argv[2],'r')
+
+
+
+
+
+arq = open(sys.argv[1],'w')
+arq2 = open(sys.argv[2],'w')
 elementosTeste = arq.readlines()
 elementosTreino = arq2.readlines()
 
