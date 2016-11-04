@@ -36,8 +36,8 @@ def getElements(elemn) :
 
 
 
-arq = open(sys.argv[1],'w')
-arq2 = open(sys.argv[2],'w')
+arq = open(sys.argv[1],'r')
+arq2 = open(sys.argv[2],'r')
 elementosTeste = arq.readlines()
 elementosTreino = arq2.readlines()
 
